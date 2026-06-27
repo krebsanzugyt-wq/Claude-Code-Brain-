@@ -15,6 +15,11 @@ Projektspezifisches in dieses `.claude/`. Bei neuen Projekten nur `.claude/` kop
 - Lange Session → `/compact`. Themenwechsel → `/clear`.
 - Antworten knapp halten; keinen Output produzieren, der nicht gebraucht wird.
 
+## Workflows
+- Angebots-/Preissuche: `/deal <Produkt>` — Quellen & Details in `docs/deal-guide.md`,
+  Ergebnisse landen in `deals/`.
+
 ## Details — bei Bedarf lesen (NICHT per @import, damit der Basiskontext klein bleibt)
 - Konventionen: `docs/conventions.md`
 - Kosten-Leitfaden: `docs/cost-guide.md`
+- Angebots-Leitfaden: `docs/deal-guide.md`
