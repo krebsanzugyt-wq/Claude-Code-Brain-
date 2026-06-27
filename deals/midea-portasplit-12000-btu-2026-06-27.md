@@ -32,6 +32,33 @@ Es gibt **zwei optisch identische Varianten** — beim Kauf genau auf die Bezeic
 - Preise und Verfügbarkeit schwanken in Hitzephasen stark; Modell oft schnell ausverkauft.
 - UVP-Orientierung: 12.000-BTU-Modell 1.199 € UVP, 8.000-BTU-"Cool" 899 € UVP.
 
+## Noch mehr sparen — Gutscheine, Cashback, Stacking (Update 2026-06-27)
+
+**Bester effektiver Preis: toom-Stacking → ~592–639 €** (12.000-BTU-Modell, nur lokal im Markt):
+1. toom-Listenpreis vor Ort: 749 € (statt 799,99 €).
+2. −10 % toom Neukunden-Willkommens-Gutschein (online Konto anlegen, beide Werbe-Häkchen
+   E-Mail+Post setzen) → 674,10 €.
+3. −~7 % über **Corporate-Benefits**-Geschenkkarten (rabattierte toom-Gutscheinkarten) →
+   effektiv ~592–639 € je nach Stückelung.
+   - Tipp aus der Community: Wenn der Gutschein nicht greift („gilt nicht für Warenkorb"):
+     Konto löschen, neu anlegen, Häkchen frisch setzen.
+
+**Weitere Hebel:**
+- **Cashback-Portale** (online, stapelbar mit Shop-Aktion): MediaMarkt ~3,5 % (iGraal) bzw.
+  2 % + 5 € Gutschein (Shoop); HORNBACH bis ~2,5 %; Bauhaus ~3 % (Shoop). Vor dem Kauf über
+  das Portal einsteigen. → MediaMarkt 699 € online − 3,5 % ≈ **~675 €**.
+- **HORNBACH Tiefpreisgarantie:** günstigeren Wettbewerbspreis (z. B. toom/MediaMarkt) in der
+  Filiale vorzeigen → 10 % drauf. Lässt sich mit dem toom-Preis als Beleg kombinieren.
+- **Midea MegaDeals Cashback (bis 175 €):** Aktionszeitraum 15.04.–31.05.2026,
+  Registrierung bis 14.06.2026 → **abgelaufen**; auf Folgeaktion unter midea.com/de/megadeals achten.
+- **mydealz** abonnieren für Folge-Deals und Gutscheincodes (Preise/Verfügbarkeit volatil).
+- **Versand sparen:** Filialabholung wählen → keine Versandkosten (bei HORNBACH sonst +39 €).
+- **Achtung:** Lidl 599 € betrifft die **"Cool" 8.000 BTU** (kein Heizen) — nicht das 12.000-BTU-Modell.
+
+**Cashback-Warnung:** Drittanbieter-„Gutscheinseiten" mit „bis zu 94 % Rabatt" sind meist
+unseriös/nicht verifiziert. HORNBACH & MediaMarkt geben kaum klassische Codes aus — Ersparnis
+läuft über Aktionen, Cashback und Geschenkkarten.
+
 ## Quellen
 - MediaMarkt WM-Deal: https://www.mediamarkt.de/de/content/themen-specials/aus-aktuellem-anlass/midea-portasplit-cool-angebot
 - MediaMarkt Produktseite: https://www.mediamarkt.de/de/product/_midea-porta-split-klimaanlage-grau-max-raumgrosse-42-m-eek-a-142245268.html
@@ -43,3 +70,8 @@ Es gibt **zwei optisch identische Varianten** — beim Kauf genau auf die Bezeic
 - idealo.at: https://www.idealo.at/preisvergleich/OffersOfProduct/204374464_-portasplit-3-5-kw-midea.html
 - BAUHAUS: https://www.bauhaus.info/klimaanlagen/midea-klimasplitgeraet-portasplit-12000-btu/p/31934233
 - Variantenvergleich (Cool vs. 12.000): https://www.smarthomeassistent.de/neue-midea-portasplit-cool-guenstigere-klimaanlage-mit-abgespeckten-funktionen/
+- toom-Stacking-Deal (mydealz): https://www.mydealz.de/magazin/vor-hitzewelle-midea-portasplit-im-top-angebot-hier-gibts-die-mobile-klimaanlage-zum-bestpreis-66557
+- Midea MegaDeals Cashback: https://www.midea.com/de/megadeals
+- HORNBACH Tiefpreisgarantie/Newsletter: https://www.sparwelt.de/gutscheine/hornbach
+- MediaMarkt Gutscheine: https://www.mydealz.de/gutscheine/mediamarkt-de
+- Cashback-Vergleich (Shoop/iGraal): https://www.5.de/cashback/hornbach
