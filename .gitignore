@@ -1,0 +1,23 @@
+# Lokale, nicht zu teilende Claude-Config
+.claude/settings.local.json
+*.local.*
+
+# Secrets / Env
+.env
+.env.*
+
+# Abhängigkeiten / Build
+node_modules/
+dist/
+build/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs / Temp
+*.log
+tmp/
