@@ -1,0 +1,23 @@
+# Abhängigkeiten
+node_modules/
+.pnp.*
+vendor/
+
+# Umgebungen & Geheimnisse — niemals committen
+.env
+.env.*
+*.local
+
+# Build-Artefakte
+dist/
+build/
+out/
+coverage/
+
+# Logs & Caches
+*.log
+.cache/
+.DS_Store
+
+# Claude-Code-Brain: laufzeitlokaler Sentinel des Stop-Hooks
+.claude/.session-nudged
