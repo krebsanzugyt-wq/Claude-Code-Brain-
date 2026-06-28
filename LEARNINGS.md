@@ -20,6 +20,16 @@ geladen, also kostet jeder Eintrag Tokens. Nur nicht-offensichtliche Learnings.
 
 <!-- Neue Einträge ab hier (neueste oben). -->
 
+### [2026-06-28] deals/ ist für ALLE Recherchen, nicht nur Preis-Deals
+- **Problem:** Unklar, wohin ein Produkt-Feature-Vergleich (Garmin Forerunner) ohne
+  Preisbezug gehört — es gibt keinen `vergleiche/`-Ordner.
+- **Ursache:** `deals/` heißt nach Preis-Deals, ist aber laut Konvention die
+  einheitliche Ablage für jegliche Recherche-Ergebnisse.
+- **Lösung / Regel ab jetzt:** Recherche-/Vergleichsdokumente nach `deals/` legen,
+  Namensschema `<slug>-<YYYY-MM-DD>.md`. Bei reinen Spec-Vergleichen ohne Live-Daten
+  oben klaren Vorbehalt setzen (Wissensstand statt Live, vor Kauf prüfen).
+- **Tags:** #konventionen #deals
+
 ### [2026-06-28] Stop-Hook-Sentinel muss in .gitignore
 - **Problem:** Nach jeder Session taucht `.claude/.session-nudged` als untracked
   Datei auf und der git-check-Hook mahnt zum Committen.
