@@ -20,6 +20,20 @@ geladen, also kostet jeder Eintrag Tokens. Nur nicht-offensichtliche Learnings.
 
 <!-- Neue Einträge ab hier (neueste oben). -->
 
+### [2026-06-28] Web-Umgebung hat vollständigen Egress-Block
+- **Problem:** Tasks wie "Video/URL herunterladen & transkribieren" scheitern
+  komplett — yt-dlp, curl, WebFetch geben alle 403.
+- **Ursache:** Der Policy-Proxy dieser Cloud-Session erlaubt KEINEN allgemeinen
+  Internet-Egress. Selbst `curl https://example.com` → 403. Nur Paket-Registries
+  (pypi/npm/crates… aus `noProxy`) sind direkt erreichbar; WebFetch/WebSearch
+  laufen nur über den Anthropic-Kanal und scheitern an Login-Wänden (z.B. IG).
+- **Lösung / Regel ab jetzt:** Bei Download-/Scrape-/Transkriptions-Aufgaben
+  zuerst `curl -sS "$HTTPS_PROXY/__agentproxy/status"` prüfen. Ist Egress dicht,
+  NICHT umgehen (Proxy-Policy verbietet das) — dem User Optionen geben:
+  lokal ausführen, externes Web-Tool selbst nutzen, oder Netzwerk-Policy der
+  Umgebung öffnen. ffmpeg ist via `pip install imageio-ffmpeg` verfügbar.
+- **Tags:** #netzwerk #proxy #limits
+
 ### [2026-06-28] Stop-Hook-Sentinel muss in .gitignore
 - **Problem:** Nach jeder Session taucht `.claude/.session-nudged` als untracked
   Datei auf und der git-check-Hook mahnt zum Committen.
