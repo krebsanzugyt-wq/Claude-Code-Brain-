@@ -20,6 +20,15 @@ geladen, also kostet jeder Eintrag Tokens. Nur nicht-offensichtliche Learnings.
 
 <!-- Neue Einträge ab hier (neueste oben). -->
 
+### [2026-06-28] Stop-Hook-Sentinel muss in .gitignore
+- **Problem:** Nach jeder Session taucht `.claude/.session-nudged` als untracked
+  Datei auf und der git-check-Hook mahnt zum Committen.
+- **Ursache:** Der Stop-Hook (`session-end.sh`) legt diese Sentinel-Datei zur
+  Loop-Vermeidung an — sie ist rein session-lokal, gehört aber nicht ins Repo.
+- **Lösung / Regel ab jetzt:** `.claude/.session-nudged` ist in `.gitignore`.
+  Beim Hinzufügen weiterer runtime-Sentinels diese ebenfalls ignorieren.
+- **Tags:** #hooks #git
+
 ### [2026-06-27] Hook-Skripte brauchen das Executable-Bit
 - **Problem:** Frisch via Write erstellte Hook-Skripte werden von Claude Code
   nicht ausgeführt.
