@@ -9,17 +9,34 @@ teurer Arbeit an günstige Modelle und Abschalten unnötiger Nebenaufrufe.
 ```
 .
 ├── CLAUDE.md                 # Kern-Memory, bewusst kurz & stabil (jede Session geladen)
+├── LEARNINGS.md              # Langzeitgedächtnis, append-only (auto-geladen beim Start)
 ├── docs/
 │   ├── cost-guide.md         # Kosten-Checkliste (bei Bedarf gelesen)
 │   └── conventions.md        # Detailregeln (bei Bedarf gelesen)
 ├── .claude/
-│   ├── settings.json         # Modell, Kosten-Flags, Permissions, SessionStart-Hook
+│   ├── settings.json         # Modell, Kosten-Flags, Permissions, SessionStart-/Stop-Hook
 │   ├── agents/explorer.md    # Read-only Such-Subagent auf Haiku
 │   ├── commands/cost-check.md# /cost-check Slash-Command
-│   └── hooks/session-start.sh# Leichter Statushinweis, keine Modellaufrufe
+│   ├── commands/lernen.md    # /lernen — destilliert die Session in LEARNINGS.md
+│   └── hooks/
+│       ├── session-start.sh  # Statushinweis + lädt LEARNINGS.md, keine Modellaufrufe
+│       └── session-end.sh    # Stop-Hook: erinnert 1× pro Session ans Festhalten
 ├── .mcp.json                 # Leeres MCP-Template (keine aktiven Server)
 └── .gitignore
 ```
+
+## Selbst-optimierendes Gedächtnis
+
+Das Repo merkt sich Erkenntnisse über Sessions hinweg:
+
+- **`LEARNINGS.md`** — append-only Langzeitgedächtnis. Der `SessionStart`-Hook lädt
+  es automatisch in den Kontext, damit bekannte Fehler nicht wiederholt werden.
+- **`Stop`-Hook** — erinnert einmal pro Session daran, neue Learnings festzuhalten
+  (loop-sicher via Sentinel-Datei).
+- **`/lernen`** — destilliert die laufende Session in saubere `LEARNINGS.md`-Einträge.
+
+Kuratiert halten: Die Datei wird jede Session geladen, also nur nicht-offensichtliche
+Learnings — keine Trivialitäten, keine Geheimnisse.
 
 ## Warum das Kosten spart
 

@@ -19,6 +19,12 @@ Projektspezifisches in dieses `.claude/`. Bei neuen Projekten nur `.claude/` kop
 - Angebots-/Preissuche: `/deal <Produkt>` — Quellen & Details in `docs/deal-guide.md`,
   Ergebnisse landen in `deals/`.
 
+## Gedächtnis & Selbstoptimierung
+- `LEARNINGS.md` ist das Langzeitgedächtnis (append-only). Der `SessionStart`-Hook
+  lädt es automatisch — also **kurz & kuratiert halten**, jeder Eintrag kostet Tokens.
+- Nicht-offensichtliche Erkenntnis entdeckt? Sofort als Eintrag oben in `LEARNINGS.md`.
+- Am Sessionende erinnert der `Stop`-Hook ans Festhalten; `/lernen` destilliert die Session.
+
 ## Details — bei Bedarf lesen (NICHT per @import, damit der Basiskontext klein bleibt)
 - Konventionen: `docs/conventions.md`
 - Kosten-Leitfaden: `docs/cost-guide.md`
