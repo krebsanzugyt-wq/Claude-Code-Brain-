@@ -2,6 +2,9 @@
 .claude/settings.local.json
 *.local.*
 
+# Session-lokale Sentinel-Datei des Stop-Hooks (nicht versionieren)
+.claude/.session-nudged
+
 # Secrets / Env
 .env
 .env.*
